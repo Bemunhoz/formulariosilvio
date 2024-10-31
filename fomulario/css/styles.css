@@ -1,0 +1,65 @@
+*{ /* qnd tem * eh pra pegar todos do site*/
+
+    margin: 300;
+    padding: 100; /*espaço interno*/
+    box-sizing: o;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(159, 113, 165), rgb(104, 18, 121));
+    display: flex; /*eh uma caixa, consigo mexer na div, ela da moviemnto*/
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+main{
+
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 100px 10px rosybrown;
+    width: 300px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+input, textarea{
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input:focus {
+    border-color: #030d18; /* muda a cor da borda qnd clica */
+    background-color: #ebbad8; /* qnd vai digitar muda a cor de fundo */
+    
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(48, 4, 54);
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blueviolet; /*ele muda a cor do botao qnd passa o mouse em cima*/
+
+}
+#genero {
+    width: 300px; 
+    height: 40px;
+}
+#estado {
+    width: 300px; 
+    height: 40px;
+}
